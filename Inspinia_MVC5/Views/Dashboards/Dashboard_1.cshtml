@@ -1,0 +1,13 @@
+﻿@model Inspinia_MVC5.Models.StudentInfo
+
+@{
+    ViewBag.Title = "Dashboard v.1";
+}
+
+<body>
+    <h2>Hello <b>@Model.FirstName @Model.LastName</b></h2>
+    
+    <h3>You have grduated our <b>@Model.ProgramName</b> course in <b>@Model.Year-@Model.Month</b> and received <b>@Model.Degree</b> degree.
+    Congratulations! <br />
+    Please visit here to download your image. <a href="/Dashboards/diploma_askworth">Click for Askworth!</a><a href="/Dashboards/diploma_james">Click for James!</a></h3>
+</body>
